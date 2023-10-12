@@ -1,0 +1,335 @@
+/* Primary */
+
+*{
+    margin : 0;
+    padding :0;
+}
+
+/* Header Section 1 */
+.head{
+    height : 110px;
+    text-align: center;
+    font-weight: 500;
+    font-family :cursive,Verdana, Geneva, Tahoma, sans-serif;
+    font-size : 80px;
+    background-color: #5B0888;
+    color : #E5CFF7;
+    box-shadow: 0.5px 8px #9D76C1;
+}
+
+/* Section 2 */
+.f1{
+    font-family : cursive,Verdana, Geneva, Tahoma, sans-serif;
+    font-size : 40px;
+    color : #713ABE;
+    display : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    gap : 20px;
+    padding : 15px;
+    margin : 20px;
+
+}
+
+.f2{
+    display:flex;
+    flex-direction:column;
+    gap : 20px;
+    border : 4px solid #5B0888;
+    border-radius : 18px;
+    padding : 15px;
+    justify-content: center;
+}
+
+#img1{
+    border : 4px solid #5B0888;
+    border-radius : 18px;
+}
+
+#f1{
+    font-size : 20px;
+}
+
+#mline{
+    height:15px;
+    background-color: #9D76C1;
+}
+
+/* section 3 */
+
+h1{
+    font-family :cursive,Verdana, Geneva, Tahoma, sans-serif;
+    color : #713ABE;
+    text-align: center;
+    font-size : 50px;
+    text-decoration: underline;
+}
+
+.cr{
+    border : 5px solid #5B0888;
+    border-radius: 18px;
+    padding : 15px;
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    gap : 15px;
+    margin : 10px;
+}
+
+#cr1,#cr2{
+    display : flex;
+    flex-direction : row;
+    gap : 150px;
+    justify-content: space-evenly;
+    padding : 15px;
+}
+
+
+.temp1{
+    border : 5px solid #713ABE;
+    border-radius : 15px;
+    height : 70px;
+    width : 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding : 50px;
+    font-family:  cursive , Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight : 200px;
+    color :rgb(255, 255, 255,0);
+}
+
+a{
+    text-decoration: none;
+}
+
+#t1{
+    background-image: url(./src/workplace.png);
+    background-size : cover;
+}
+
+#t1:hover{
+    background-color: #713ABE;
+    color : rgb(255, 250, 250);
+    background-image: none;
+}
+#t2{
+    background-image: url(./src/movies.png);
+    background-size : cover;
+}
+
+#t2:hover{
+    background-color: #713ABE;
+    color : rgb(255, 250, 250);
+    background-image: none;
+}
+#t3{
+    background-image: url(./src/social-media.png);
+    background-size : cover;
+}
+
+#t3:hover{
+    background-color: #713ABE;
+    color : rgb(255, 250, 250);
+    background-image: none;
+}
+#t4{
+    background-image: url(./src/feasibility.png);
+    background-size : cover;
+}
+
+#t4:hover{
+    background-color: #713ABE;
+    color : rgb(255, 250, 250);
+    background-image: none;
+}
+#t5{
+    background-image: url(./src/world-news.png);
+    background-size : cover;
+}
+
+#t5:hover{
+    background-color: #713ABE;
+    color : rgb(255, 250, 250);
+    background-image: none;
+}
+#t6{
+    background-image: url(./src/app-development.png);
+    background-size : cover;
+}
+
+#t6:hover{
+    background-color: #713ABE;
+    color : rgb(255, 250, 250);
+    background-image: none;
+}
+
+h2{
+    font-family :cursive,Verdana, Geneva, Tahoma, sans-serif;
+    color : #713ABE;
+    text-align: center;
+    font-size : 30px;
+    text-decoration: underline;
+}
+
+.f3{
+    display : flex;
+    flex-direction : row;
+    justify-content: space-around;
+    gap : 20px;
+    padding : 15px;
+    margin : 20px;
+    color : #713ABE;
+    font-weight: 500px;
+}
+
+input[type=text],[type=email]{
+    border: 3px solid #713ABE;
+    border-radius: 4px;
+    height : 30px;
+  }
+
+  textarea{
+    border: 3px solid #713ABE;
+    border-radius: 4px;
+    height : 60px;
+  }
+
+  button{
+    background-color: #5B0888;
+    color : white;
+    height : 30px;
+    width : 80px;
+  }
+
+  /* Pages */
+  .temp2{
+    height : 80px;
+    width : 80px;
+    border : 5px solid #713ABE;
+    border-radius : 15px;  
+  }
+
+  #t7{
+    background-image: url(./src/gmail.jpg);
+    background-size: cover;
+  }
+
+  #t8{
+    background-image: url(./src/google.png);
+    background-size: cover;
+  }
+
+  #t9{
+    background-image: url(./src/googledrive.png);
+    background-size: cover;
+  }
+
+  #t10{
+    background-image: url(./src/googlesheets.png);
+    background-size: cover;
+  }
+
+  #t11{
+    background-image: url(./src/outlook-logo-vector.png);
+    background-size: contain;
+  }
+
+  #t12{
+    background-image: url(./src/microsoft-teams.png);
+    background-size: cover;
+  }
+
+  #t13{
+    background-image: url(./src/zoom-logo.png);
+    background-size: contain;
+  }
+
+  #t14{
+    background-image: url(./src/ChatGPT.png);
+    background-size: cover;
+  }
+
+  #t15{
+    background-image: url(./src/netflix.png);
+    background-size: cover;
+  }
+
+  #t16{
+    background-image: url(./src/amazonp.png);
+    background-size: cover;
+  }
+  #t17{
+    background-image: url(./src/fallback_sonyliv_logo.png);
+    background-size: cover;
+  }
+  #t18{
+    background-image: url(./src/hbo.png);
+    background-size: cover;
+  }
+  #t19{
+    background-image: url(./src/hotstar.png);
+    background-size: cover;
+  } 
+  #t20{
+    background-image: url(./src/Zee5_Official_logo.svg.png);
+    background-size: cover;
+  }
+  #t21{
+    background-image: url(./src/jiocinema-logo.png);
+    background-size: cover;
+  }
+  #t22{
+    background-image: url(./src/youtube.png);
+    background-size: cover;
+  }
+  #t23{
+    background-image: url(./src/facebook-logo-3-1.png);
+    background-size: cover;
+  }
+  #t24{
+    background-image: url(./src/instagram1.jpg);
+    background-size: cover;
+  }
+  #t25{
+    background-image: url(./src/whatsapp.png);
+    background-size: cover;
+  }
+  #t26{
+    background-image: url(./src/Snapchat-logo.jpg);
+    background-size: cover;
+  }
+  #t27{
+    background-image: url(./src/linkedin-logo.png);
+    background-size: cover;
+  }
+  #t28{
+    background-image: url(./src/twitter-x.png);
+    background-size: cover;
+  }
+  #t29{
+    background-image: url(./src/gplus-.png);
+    background-size: cover;
+  }
+  #t30{
+    background-image: url(./src/tinder.png);
+    background-size: cover;
+  }
+
+
+
+
+
+/* Footer */
+.fr{
+    background-color: #5B0888;
+    color : #E5CFF7;
+    box-shadow: 0 0 0.5px 8px #9D76C1;
+    text-align: center;
+    height : 40px;
+    font-size: 18px;
+    padding : 10px;
+}
+
+
